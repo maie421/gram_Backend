@@ -5,7 +5,10 @@
   "author": "윤영미 <35258834+maie421@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-core": "^6.26.3",
     "babel-node": "^0.0.1-security",
     "dotenv": "^8.1.0",
     "graphql-yoga": "^1.18.3"
