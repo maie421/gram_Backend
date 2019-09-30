@@ -1,4 +1,4 @@
-export const objectives=[
+export const adjectives=[
 "lamp",
 "knife",
 "fake flowers",
@@ -99,7 +99,7 @@ export const objectives=[
 "sandal",
 "pillow",
 "helmet"
-]
+];
 export const nouns=[
     "chinchilla",
     "dromedary",
@@ -201,4 +201,4 @@ export const nouns=[
     "antelope",
     "colt",
     "burro",
-]
+];
