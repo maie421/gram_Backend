@@ -1,7 +1,7 @@
 import {isAuthenticated} from "../../../middlewares";
 import {prisma} from "../../../../generated/prisma-client";
 
-export default{
+export default {
     Mutation:{
         toggleLike:async(_,args,{request})=>{
             isAuthenticated(request);
