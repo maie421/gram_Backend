@@ -23,7 +23,7 @@ type Post {
   location: String
   caption: String!
   user: User!
-  files: [File!]!
+  files: [File!]! 
   isLiked: Boolean!
   likeCount: Int!
   comments: [Comment!]!
@@ -34,7 +34,7 @@ type Post {
 
 type Like {
   id: ID!
-  user: User!
+  user: User! 
   post: Post!
   createdAt: String
   updatedAt: String

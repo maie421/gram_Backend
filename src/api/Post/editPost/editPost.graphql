@@ -1,0 +1,12 @@
+enum ACTIONS{
+    EDITN
+    DELETE
+}
+type Mutation{
+    editPost(
+        id:String!
+        catption:String
+        location:String
+        action:ACTIONS!
+    ):Post!
+}
